@@ -1,16 +1,17 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  root: '.',
+  root: './',
   build: {
     rollupOptions: {
       input: {
-        main: 'admin-index.html'
+        main: './admin-index.html'
       }
     },
     outDir: 'admin-dist'
   },
   server: {
-    port: 3001
+    port: 5173,
+    host: true
   }
 })
