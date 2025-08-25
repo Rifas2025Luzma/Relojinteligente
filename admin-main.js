@@ -215,7 +215,7 @@ class AdminRaffleApp {
         </div>
 
         <div class="payment-info">
-          <p class="copy-number" data-number="3102583419">PUEDES PAGAR POR NEQUI AL NÚMERO <span class="number-highlight">3102583419</span> <span class="copy-icon">📋</span></p>
+          <p class="copy-number" data-number="3002183503">PUEDES PAGAR POR NEQUI AL NÚMERO <span class="number-highlight">3002183503</span> <span class="copy-icon">📋</span></p>
         </div>
 
         <div class="modal" id="registrationModal">
