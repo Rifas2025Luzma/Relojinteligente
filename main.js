@@ -62,7 +62,7 @@ class RaffleApp {
   }
 
   maskPhone(phone) {
-    return phone.substring(0, 5) + '*'.repeat(phone.length - 5);
+    return phone.substring(0, 5) + '*'.repeat(Math.max(0, phone.length - 5));
   }
 
   async saveParticipant(number, name, phone) {
