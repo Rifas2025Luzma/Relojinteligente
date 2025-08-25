@@ -166,22 +166,11 @@ class RaffleApp {
     appElement.innerHTML = `
       <div class="container">
         <header class="header">
-          <h1>¡Gran Rifa de Smartwatch!</h1>
-          <p>Sorteo: 09 de abril con los últimos dos números de la Lotería de la Cruz Roja</p>
-          <img src="https://raw.githubusercontent.com/Rifas2025Luzma/SmartWatch/refs/heads/main/smart.jpg" 
-               alt="Smartwatch" 
+          <h1>¡Gran Rifa de $1'000.000!</h1>
+          <p>Sorteo: 20 de septiembre con los últimos dos números de la Lotería de Boyacá</p>
+          <img src="https://images.pexels.com/photos/259027/pexels-photo-259027.jpeg?auto=compress&cs=tinysrgb&w=300" 
+               alt="Dinero" 
                class="smartwatch-image">
-          <div class="promo-text">
-            <h2>🎉 ¡Gana un Smartwatch Premium! ⌚🔥 🎉</h2>
-            <p>Imagina tener un asistente personal en tu muñeca que:</p>
-            <ul>
-              <li>✅ Te notifica llamadas y mensajes al instante 📲</li>
-              <li>✅ Monitorea tu salud con sensor de frecuencia cardíaca y oxígeno en sangre ❤️‍🩹</li>
-              <li>✅ Registra tu actividad física y pasos diarios 🏃‍♂️</li>
-              <li>✅ Cuenta con GPS integrado para que nunca pierdas el rumbo 📍</li>
-              <li>✅ Batería de larga duración, para acompañarte todo el día 🔋</li>
-            </ul>
-          </div>
         </header>
         
         <div class="numbers-grid">
@@ -189,7 +178,7 @@ class RaffleApp {
         </div>
 
         <div class="payment-info">
-          <p class="copy-number" data-number="3102583419">PUEDES PAGAR POR NEQUI AL NÚMERO <span class="number-highlight">3102583419</span> <span class="copy-icon">📋</span></p>
+          <p class="copy-number" data-number="3002183503">PUEDES PAGAR POR NEQUI AL NÚMERO <span class="number-highlight">3002183503</span> <span class="copy-icon">📋</span></p>
         </div>
 
         <div class="modal" id="registrationModal">
